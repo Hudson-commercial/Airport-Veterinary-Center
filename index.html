@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Vet Website</title>
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+      <!-- Bootstrap core CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="./dist/css/lightbox.min.css">
+      <style type="text/css" media="screen">
+         html,
+         body,
+         header,
+         .carousel {
+         height: 80vh;
+         }
+         .center {
+         margin: 0 auto;
+         }
+         .margin-section {
+         height: 20%;
+         }
+         .lastsection {
+          margin-top: 10%;
+         }
+         .margin-sectionsmall {
+          height: 10%;
+         }
+         .margin-sectionsmall2{
+          height: 4%;
+         }
+         .large-container {
+         width: 90%;
+         margin: 0 auto;
+         }
+         @media (max-width: 740px) {
+         html,
+         body,
+         header,
+         .carousel {
+         height: 100vh;
+         }
+         }
+         @media (min-width: 800px) and (max-width: 850px) {
+         html,
+         body,
+         header,
+         .carousel {
+         height: 100vh;
+         }
+         }
+         @media (min-width: 800px) and (max-width: 850px) {
+         .navbar:not(.top-nav-collapse) {
+         background: #1C2331!important;
+         }
+         }
+         .view,body,html{height:100%}@media (max-width:740px){.full-page-intro{height:1000px}}.carousel{height:80%}.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item{height:100%}@media (max-width:776px){.carousel{height:100%}}.navbar{background-color:rgba(0,0,0,.3)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+      </style>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+         <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="https://hudsoncommercial.com/" target="_blank">
+            <strong>Hudson Commercial Real Estate Corp</strong>
+            </a>
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <!-- Left -->
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Home
+                     <span class="sr-only">(current)</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="https://hudsoncommercial.com/frontpage/about/" target="_blank">About US</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="201-Ward-St-Flyer.pdf" download>Download Flyer</a>
+                  </li>
+               </ul>
+               <!-- Right -->
+               <ul class="navbar-nav nav-flex-icons">
+                  <li class="nav-item">
+                     <a href="https://www.facebook.com/Hudson-Commercial-Real-Estate-Corp-111074927066980/?view_public_for=111074927066980" class="nav-link" target="_blank">
+                     <i class=" puple-color fab fa-facebook-f puple-color"></i>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="https://twitter.com/noah15977842" class="nav-link" target="_blank">
+                     <i class=" puple-color fab fa-twitter puple-color"></i>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="https://github.com/Hudson-commercial/" class="nav-link border border-light rounded"
+                        target="_blank">
+                     <i class=" puple-color fab fa-github mr-2 puple-color"></i>GitHub
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Navbar -->
+      <!--Carousel Wrapper-->
+      <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+         <!--Indicators-->
+         <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+         </ol>
+         <!--/.Indicators-->
+         <!--Slides-->
+         <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+               <div class="view" style="background-image: url('font-main.jpg'); background-repeat: no-repeat; background-size: cover;">
+                  <!-- Mask & flexbox options-->
+                  <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                     <!-- Content -->
+                     <div class="text-center white-text mx-5 wow fadeIn">
+                        <h1 class="mb-4">
+                           <strong>OFFICE SPACE FOR SALE </strong>
+                        </h1>
+                        <p>
+                           <strong>11 Airport Dr, Wappingers Falls, NY 12590</strong>
+                        </p>
+                        <div class="row">
+                           <p class="mb-4 d-none d-md-block col-md-6 center text-center ">
+                              <strong>Setup your business in an excelent conner location, A very propefessional office building with a large reception area, office, , medical labs, kennel, storage room, file room, mailroom, copier areas, service units, and coat storage. This building office is for sale and can accommodate many office uses, like general office use, lawyers, accountants, medical use and much more. </strong>
+                           </p>
+                        </div>
+                        <a target="_blank" href="https://hudsoncommercial.com/contact-us/" class="btn btn-outline-white btn-lg"> Set  Appointment
+                        </a>
+                     </div>
+                     <!-- Content -->
+                  </div>
+                  <!-- Mask & flexbox options-->
+               </div>
+            </div>
+            <!--/First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+               <div class="view" style="background-image: url('font-main.jpg'); background-repeat: no-repeat; background-size: cover;">
+                  <!-- Mask & flexbox options-->
+                  <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                     <!-- Content -->
+                     <div class="text-center white-text mx-5 wow fadeIn">
+                        <h1 class="mb-4">
+                           <strong>OFFICE SPACE FOR SALE </strong>
+                        </h1>
+                        <p>
+                           <strong>11 Airport Dr, Wappingers Falls, NY 12590</strong>
+                        </p>
+                        <p class="mb-4 d-none d-md-block col-md-6 center ">
+                           <strong>Setup your business in an excelent conner location, A very propefessional office building with a large reception area, office, , medical labs, kennel, storage room, file room, mailroom, copier areas, service units, and coat storage. This building office is for sale and can accommodate many office uses, like general office use, lawyers, accountants, medical use and much more. </strong>
+                        </p>
+                        <a target="_blank" href="https://hudsoncommercial.com/contact-us/" class="btn btn-outline-white btn-lg"> Set  Appointment
+                        </a>
+                     </div>
+                     <!-- Content -->
+                  </div>
+                  <!-- Mask & flexbox options-->
+               </div>
+            </div>
+            <!--/Second slide-->
+            <!--Third slide-->
+            <div class="carousel-item">
+               <div class="view" style="background-image: url('font-main.jpg'); background-repeat: no-repeat; background-size: cover;">
+                  <!-- Mask & flexbox options-->
+                  <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                     <!-- Content -->
+                     <div class="text-center white-text mx-5 wow fadeIn">
+                        <h1 class="mb-4">
+                           <strong>OFFICE SPACE FOR SALE </strong>
+                        </h1>
+                        <p>
+                           <strong>11 Airport Dr, Wappingers Falls, NY 12590</strong>
+                        </p>
+                        <p class="mb-4 d-none d-md-block col-md-6 center ">
+                           <strong>Setup your business in an excelent conner location, A very propefessional office building with a large reception area, office, , medical labs, kennel, storage room, file room, mailroom, copier areas, service units, and coat storage. This building office is for sale and can accommodate many office uses, like general office use, lawyers, accountants, medical use and much more. </strong>
+                        </p>
+                        <a target="_blank" href="https://hudsoncommercial.com/contact-us/" class="btn btn-outline-white btn-lg"> Set  Appointment
+                        </a>
+                     </div>
+                     <!-- Content -->
+                  </div>
+                  <!-- Mask & flexbox options-->
+               </div>
+            </div>
+            <!--/Third slide-->
+         </div>
+         <!--/.Slides-->
+         <!--Controls-->
+         <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+         <!--/.Controls-->
+      </div>
+      <!--/.Carousel Wrapper-->
+      <!-- ------------------------------------------------------------------------------------------------------------------------
+         -->
+      <!--Grid row-->
+      <div class="margin-section">
+      </div>
+      <h3 class="h3 text-center mb-5">The Airport Veterinary Center</h3>
+         <div class="margin-sectionsmall">
+      </div>
+      <div class="large-container">
+         <div class="row mt-4">
+            <!--Grid column-->
+            <div class="col-md-8 mb-4">
+               <!-- Page Content -->
+               <div class="">
+                  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1>
+                  <hr class="mt-2 mb-5">
+                  <div class="row text-center text-lg-left">
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="faded-1.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="faded-1.jpg" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad-2.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad-2.jpg " alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad-3.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad-3.jpg" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad-4.JPG" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad-4.JPG" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad5.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad5.jpg " alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad6.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad6.jpg" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad-7.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad-7.jpg" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad-8.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad-8.jpg" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="last-fad1.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="last-fad1.jpg" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad11.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad11.jpg" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="las-fad-3.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="las-fad-3.jpg" alt="">
+                        </a>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-6">
+                        <a href="fad-10.jpg" class="d-block mb-4 h-100 example-image-link" data-lightbox="example-set">
+                        <img class="img-fluid img-thumbnail" src="fad-10.jpg" alt="">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+                  <div class="col-md-12 mt-4">
+                     <div class="jumbotron">
+                        <h2 class="h2-responsive">The Airport Veterinary Center</h2>
+                        <br>
+                        <p>11 Airport Dr, Wappingers Falls, NY 12590</p>
+                        <hr>
+                        <p>Setup your business in an excelent conner location, A very propefessional office building with a large reception area, office, , medical labs, kennel, storage room, file room, mailroom, copier areas, service units, and coat storage. This building office is for sale and can accommodate many office uses, like general office use, lawyers, accountants, medical use and much more. </p>
+                        <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-outline-warning waves-effect" rel="nofollow">Download
+                        <i class="fas fa-download right"></i></a>
+                        <a target="_blank" href="https://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-warning btn-ptc waves-effect waves-light" rel="nofollow">Our Website <i class="fas fa-link right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 mt-4 pt-4">
+               <div class=" brown lighten-1 border border-secondary  img-thumbnai p-3 center mt-4  white-text ">
+                  <div class="card p-0 card-inverse orange ">
+                     <div class="card-block ">
+                        <div class="  orange darken-3  p-3">
+                           <h4 class="card-title">At a Glance</h4>
+                           <p class="card-text">A chance to buy a full service animal hospital, that can be converted back office space.</p>
+                           <!-- CTA -->
+                           <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-outline-white btn-sm"> Download Flyer
+                           <i class="fas fa-download ml-1"></i>
+                           </a>
+                           <a target="_blank" href="https://mdbootstrap.com/components/" class="btn btn-outline-white  btn-sm">Our Website
+                           <i class="fas fa-image ml-1"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <ul class="list-group mt-4 pt-2 0 ">
+                        <li class="list-group-item list-group-item-action amber accent-2">Price: $800,000  </li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Year Built:  1977</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Sale Type: Owner User</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Floor Area Ratio: 10/1,000 SF</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Property Type: Medical </li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Lot Size: 2.802 AC</li>
+                        <li class="list-group-item list-group-item-action amber accent-2"> Asset Type: Office Building/medical</li>
+                        <li class="list-group-item list-group-item-action amber accent-2"> Lot Area SF:  121,968 sf</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Lot Area Acres:  2.8 acres</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Rentable Building Area 7,700 sf</li>
+                        <li class="list-group-item list-group-item-action amber accent-2"> Zoning:  GB</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">No. Stories 1</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Water Supply:  Well</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Sewer type:  Septic</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Condition:  A</li>
+                        <li class="list-group-item list-group-item-action amber accent-2">Basement sf:  2812 SF</li>
+                        <!-- <li class="list-group-item list-group-item-action"> APN / Parcel ID 3801-086.026-0001-018.200-0000</li> -->
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="margin-sectionsmall">
+                   </div>
+      </div>
+      <!-- /.container -->
+      <div class="large-container ">
+         <div class="margin-sectionsmall">
+                   </div>
+                   <div class="lastsection">
+
+                   </div>
+         <p class="font-weight-bold">If you want to view larger images then click the thumbnail images above or click the view image buttons below.
+         </p>
+         <p><strong>You can also vist the Google photo album if you perfer<a href="https://photos.app.goo.gl/Qn8wknwJXha7egr98" target="_blank"> &nbsp; Visit Google Photos</a>.</strong></p>
+         <strong>
+            <hr class="my-4">
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+               <!--Controls-->
+               <!--         <div class="controls-top center text-center">
+                  <a class="btn-floating waves-effect waves-light" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                  <a class="btn-floating waves-effect waves-light" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                  </div> -->
+               <!--/.Controls-->
+               <!--Indicators-->
+               <ol class="carousel-indicators">
+                  <li data-target="#multi-item-example" data-slide-to="0" class=""></li>
+                  <li data-target="#multi-item-example" data-slide-to="1" class=""></li>
+                  <li data-target="#multi-item-example" data-slide-to="2" class="active"></li>
+               </ol>
+               <!--/.Indicators-->
+               <!--Slides-->
+               <div class="carousel-inner" role="listbox">
+                  <!--First slide-->
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="pop2.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">Lobby</h4>
+                                 <p class="card-text">A straight image of the front entrance </p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="pop2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                                 View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="pop1.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">Executive Office</h4>
+                                 <p class="card-text">A large office with window.</p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="pop1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="pop3.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">Exam Room</h4>
+                                 <p class="card-text">One of the exam rooms and table.</p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="pop3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--/.First slide-->
+                  <!--Second slide-->
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="reg-wash.JPG" alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">Wash Room</h4>
+                                 <p class="card-text">A large washroom.</p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="reg-wash.JPG" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="bright-2.JPG " alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">The Reception Center</h4>
+                                 <p class="card-text">This is the front reception Area.</p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="bright-2.JPG" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="small-exam-room.JPG" alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">Exam Room</h4>
+                                 <p class="card-text">A small exam room layout</p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="small-exam-room.JPG" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--/.Second slide-->
+                  <!--Third slide-->
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="last-1.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">The Excutive Office</h4>
+                                 <p class="card-text">The Executive Office looking east.</p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="last-1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="last-2.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">First room</h4>
+                                 <p class="card-text">The First room from receptionist</p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="last-2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                           <div class="card mb-2">
+                              <img class="card-img-top" src="last3.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                 <h4 class="card-title">The Kennels</h4>
+                                 <p class="card-text">This is a large kennels area.</p>
+                                 <a class=" btn btn-outline-warning waves-effect example-image-link" href="last3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">View Image</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--/.Third slide-->
+               </div>
+               <!--/.Slides-->
+            </div>
+            <!--/.Carousel Wrapper-->
+         </strong>
+      </div>
+      <div class="margin-section">
+      </div>
+      <footer class="page-footer font-small elegant-color-dark pt-4">
+         <!-- Footer Links -->
+         <div class="container text-white">
+           <h3 class="h3 text-center mb-5 mt-4">The Airport Veterinary Center</h3>
+            <div class="row">
+               <div class="col l6 s12 elegant-color-darkk">
+                  <h5 class="white-text">Company Bio</h5>
+                  <p class="white-text text-lighten-4">At Hudson Commercial Real Estate, our goal is to provide you with the leading edge – empowering you with more choices, market knowledge, and superb execution in real estate. We maintain an extensive, independent database of properties and companies in the Hudson Valley. We are always researching in the field.</p>
+               </div>
+               <div class="col l3 s12">
+                  <h5 class="white-text">Hudson Commercial <br>
+                     Real Estate Corp.
+                  </h5>
+                  <ul class="list-group list-group-flush elegant-color-dark">
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!">22 IBM Rd., Suite 101</a></li>
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!">Poughkeepsie, NY 12601-5461</a></li>
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!">(Tel) 845-454-1444</a></li>
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!">(Fax) 845-454-4912</a></li>
+                  </ul>
+               </div>
+               <div class="col l3 s12">
+                  <h5 class="white-text">Connect</h5>
+                  <ul class="list-group list-group-flush  elegant-color-dark">
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!"><h6>Sam Finnerman</h6></a></li>
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!">(Mobile) 845-416-4211</a></li>
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!">sam@hudsoncommercial.com</a></li>
+                     <br>
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!"><h6>Noah Finnerman</h6></a></li>
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!">(Mobile) 845-235-5502</a></li>
+                     <li class="list-group-item  elegant-color-dark"><a class="text-white" href="#!">noah@hudsoncommercial.com</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- Footer Links -->
+         <hr>
+         <!-- Call to action -->
+         <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+               <h5 class="mb-1 text-white">Send us a message</h5>
+            </li>
+            <li class="list-inline-item">
+               <a href="https://hudsoncommercial.com/contact-us/" class="btn btn-hudson btn-rounded">Click Link!</a>
+            </li>
+         </ul>
+         <!-- Call to action -->
+         <hr>
+         <!-- Social buttons -->
+         <!-- Copyright -->
+         <div class="footer-copyright text-center py-3 hudson-color">©2019 Copyright:
+            <a class="hudson-color" href="https://hudsoncommercial.com"> Hudsoncommercial.com</a>
+         </div>
+         <!-- Copyright -->
+      </footer>
+      <!-- JQuery -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <!-- Bootstrap tooltips -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- MDB core JavaScript -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+      <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
+   </body>
+</html>
